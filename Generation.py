@@ -25,7 +25,7 @@ def init_terrain():
     Une case est un mur avec une probabilité
     """
     grille = []
-    for i in rnage(N):
+    for i in range(N):
         grille.append([0]*N)
         print(grille)
 
